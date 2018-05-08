@@ -1,0 +1,56 @@
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\obj\Debug\B18_Ex02.csprojResolveAssemblyReference.cache
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\B18_Ex02.exe
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\B18_Ex02.pdb
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\CheckersGame.dll
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Ex02.ConsoleUtils.dll
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Board.dll
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\CheckersGame.pdb
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Board.pdb
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\obj\Debug\B18_Ex02.exe
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\obj\Debug\B18_Ex02.pdb
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\PlayerSolider.dll
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\PlayerSolider.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\obj\Debug\B18_Ex02.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\obj\Debug\B18_Ex02.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\B18_Ex02.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\B18_Ex02.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\CheckersGame.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Player.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Board.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\PlayerSolider.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Ex02.ConsoleUtils.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\CheckersGame.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Player.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Board.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\PlayerSolider.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\obj\Debug\B18_Ex02.csprojResolveAssemblyReference.cache
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Player.dll
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Player.pdb
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Ex02_ConsoleUI.pdb
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Ex02_ConsoleUI.dll
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\obj\Debug\B18_Ex02.exe
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\obj\Debug\B18_Ex02.pdb
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\B18_Ex02.exe
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\B18_Ex02.pdb
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Ex02_ConsoleUI.dll
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Player.dll
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\CheckersGame.dll
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\PlayerSolider.dll
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Ex02.ConsoleUtils.dll
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Board.dll
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Ex02_ConsoleUI.pdb
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Player.pdb
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\CheckersGame.pdb
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\PlayerSolider.pdb
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\Board.pdb
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\obj\Debug\B18_Ex02.csprojResolveAssemblyReference.cache
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\BoardSizeEnum.dll
+C:\Users\omer\Documents\Visual Studio 2015\Projects\C#\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\BoardSizeEnum.pdb
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\BoardSizeEnum.dll
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\PlayerSignOnBoardEnum.dll
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\PlayerKindEnum.dll
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\SoldierKindEnum.dll
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\BoardSizeEnum.pdb
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\PlayerSignOnBoardEnum.pdb
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\PlayerKindEnum.pdb
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\B18_Ex02\bin\Debug\SoldierKindEnum.pdb

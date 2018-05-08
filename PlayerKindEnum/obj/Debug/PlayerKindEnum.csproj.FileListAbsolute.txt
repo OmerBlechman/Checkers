@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\PlayerKindEnum\obj\Debug\PlayerKindEnum.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\PlayerKindEnum\bin\Debug\PlayerKindEnum.dll
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\PlayerKindEnum\bin\Debug\PlayerKindEnum.pdb
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\PlayerKindEnum\obj\Debug\PlayerKindEnum.dll
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\PlayerKindEnum\obj\Debug\PlayerKindEnum.pdb

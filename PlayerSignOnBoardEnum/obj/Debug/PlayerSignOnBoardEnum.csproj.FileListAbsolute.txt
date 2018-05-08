@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\PlayerSignOnBoardEnum\bin\Debug\PlayerSignOnBoardEnum.dll
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\PlayerSignOnBoardEnum\bin\Debug\PlayerSignOnBoardEnum.pdb
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\PlayerSignOnBoardEnum\obj\Debug\PlayerSignOnBoardEnum.dll
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\PlayerSignOnBoardEnum\obj\Debug\PlayerSignOnBoardEnum.pdb
+C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\PlayerSignOnBoardEnum\obj\Debug\PlayerSignOnBoardEnum.csprojResolveAssemblyReference.cache
