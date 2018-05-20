@@ -1,5 +1,0 @@
-C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\SoldierKindEnum\bin\Debug\SoldierKindEnum.dll
-C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\SoldierKindEnum\bin\Debug\SoldierKindEnum.pdb
-C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\SoldierKindEnum\obj\Debug\SoldierKindEnum.dll
-C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\SoldierKindEnum\obj\Debug\SoldierKindEnum.pdb
-C:\Users\user\Desktop\B18 Ex02 Omer 205706278 Assaf 311305098\B18 Ex02 Omer 205706278 Assaf 311305098\SoldierKindEnum\obj\Debug\SoldierKindEnum.csprojResolveAssemblyReference.cache
