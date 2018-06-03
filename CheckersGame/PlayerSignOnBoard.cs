@@ -7,6 +7,8 @@ namespace PlayerSignOnBoardEnum
     public enum ePlayerSignOnBoard
     {
         X = 0,
-        O = 1
+        O = 1,
+        K = 2,
+        U = 3
     }
 }
