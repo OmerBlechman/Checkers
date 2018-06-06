@@ -1,10 +1,13 @@
 <stylecopresultscache>
   <version>12</version>
-  <sourcecode name="Board.cs" parser="StyleCop.CSharp.CsParser">
+  <project key="1864326074">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="ComplexButton.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2018/04/09 22:37:23.211</styleCop>
       <settingsFile>2018/04/09 22:43:36.458</settingsFile>
-      <sourceFile>2018/05/28 23:45:35.077</sourceFile>
+      <sourceFile>2018/05/31 23:17:27.592</sourceFile>
       <parser>2018/04/09 22:37:23.211</parser>
       <StyleCop.CSharp.DocumentationRules>2018/04/09 22:37:23.211</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>1086769891</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -23,11 +26,11 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <sourcecode name="SoldierKind.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="GameOption.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2018/04/09 22:37:23.211</styleCop>
       <settingsFile>2018/04/09 22:43:36.458</settingsFile>
-      <sourceFile>2018/06/04 23:34:28.072</sourceFile>
+      <sourceFile>2018/05/29 23:08:35.572</sourceFile>
       <parser>2018/04/09 22:37:23.211</parser>
       <StyleCop.CSharp.DocumentationRules>2018/04/09 22:37:23.211</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>1086769891</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -46,11 +49,11 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <sourcecode name="PlayerSolider.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2018/04/09 22:37:23.211</styleCop>
       <settingsFile>2018/04/09 22:43:36.458</settingsFile>
-      <sourceFile>2018/06/04 23:34:23.759</sourceFile>
+      <sourceFile>2018/06/05 00:00:29.281</sourceFile>
       <parser>2018/04/09 22:37:23.211</parser>
       <StyleCop.CSharp.DocumentationRules>2018/04/09 22:37:23.211</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>1086769891</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -69,11 +72,11 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <sourcecode name="PlayerSignOnBoard.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="GameSettingsForm.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2018/04/09 22:37:23.211</styleCop>
       <settingsFile>2018/04/09 22:43:36.458</settingsFile>
-      <sourceFile>2018/06/04 23:34:16.520</sourceFile>
+      <sourceFile>2018/06/05 00:11:01.605</sourceFile>
       <parser>2018/04/09 22:37:23.211</parser>
       <StyleCop.CSharp.DocumentationRules>2018/04/09 22:37:23.211</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>1086769891</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -92,11 +95,11 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <sourcecode name="PlayerKind.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="GameSettingsForm.Designer.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2018/04/09 22:37:23.211</styleCop>
       <settingsFile>2018/04/09 22:43:36.458</settingsFile>
-      <sourceFile>2018/06/04 23:34:20.089</sourceFile>
+      <sourceFile>2018/06/05 00:08:11.688</sourceFile>
       <parser>2018/04/09 22:37:23.211</parser>
       <StyleCop.CSharp.DocumentationRules>2018/04/09 22:37:23.211</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>1086769891</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -115,11 +118,11 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <sourcecode name="Player.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="UI.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2018/04/09 22:37:23.211</styleCop>
       <settingsFile>2018/04/09 22:43:36.458</settingsFile>
-      <sourceFile>2018/06/04 23:34:12.326</sourceFile>
+      <sourceFile>2018/06/05 00:11:18.939</sourceFile>
       <parser>2018/04/09 22:37:23.211</parser>
       <StyleCop.CSharp.DocumentationRules>2018/04/09 22:37:23.211</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>1086769891</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -138,11 +141,11 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <sourcecode name="BoardSize.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="ComplexPictureBoxButton.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2018/04/09 22:37:23.211</styleCop>
       <settingsFile>2018/04/09 22:43:36.458</settingsFile>
-      <sourceFile>2018/06/05 17:32:35.337</sourceFile>
+      <sourceFile>2018/06/05 00:00:40.383</sourceFile>
       <parser>2018/04/09 22:37:23.211</parser>
       <StyleCop.CSharp.DocumentationRules>2018/04/09 22:37:23.211</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>1086769891</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -161,11 +164,11 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <sourcecode name="CheckersGame.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="CheckersGameForm.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2018/04/09 22:37:23.211</styleCop>
       <settingsFile>2018/04/09 22:43:36.458</settingsFile>
-      <sourceFile>2018/06/05 10:25:19.497</sourceFile>
+      <sourceFile>2018/06/05 17:32:40.056</sourceFile>
       <parser>2018/04/09 22:37:23.211</parser>
       <StyleCop.CSharp.DocumentationRules>2018/04/09 22:37:23.211</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>1086769891</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -184,30 +187,7 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <sourcecode name="GameBoard.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2018/04/09 22:37:23.211</styleCop>
-      <settingsFile>2018/04/09 22:43:36.458</settingsFile>
-      <sourceFile>2018/06/05 10:22:39.299</sourceFile>
-      <parser>2018/04/09 22:37:23.211</parser>
-      <StyleCop.CSharp.DocumentationRules>2018/04/09 22:37:23.211</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1086769891</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2018/04/09 22:37:23.211</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2018/04/09 22:37:23.211</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2018/04/09 22:37:23.211</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2018/04/09 22:37:23.211</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2018/04/09 22:37:23.211</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2018/04/09 22:37:23.211</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <project key="-409820412">
+  <project key="2102097184">
     <configuration>DEBUG;TRACE</configuration>
   </project>
 </stylecopresultscache>

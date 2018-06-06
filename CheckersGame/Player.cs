@@ -114,6 +114,7 @@ namespace Player
           {
                int soldierCapacity = (i_BoardSize / 2) * ((i_BoardSize / 2) - 1);
                m_Soldiers = new List<Soldier>(soldierCapacity);
+               m_AmountOfSoldiersValue = 0;
 
                for (int i = 0; i < soldierCapacity; ++i)
                {
@@ -131,7 +132,7 @@ namespace Player
                string playerSignOnBoard = null;
                Soldier currentSoldier = FindCurrentSoldier(i_SoldierLocation);
 
-               if(currentSoldier != null)
+               if (currentSoldier != null)
                {
                     playerSignOnBoard = currentSoldier.PlayerSignOnBoard.ToString();
                }

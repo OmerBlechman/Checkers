@@ -7,28 +7,31 @@ using Player;
 using Board;
 using SoldierKindEnum;
 
-namespace CheckersGame
+namespace CheckersGameLogic
 {
      public delegate void LogicErrorNotifierDelegate();
 
-     public class Game
+     public delegate void LogicOperationNotifierDelegate(Soldier i_CurrentSoldier, Point i_SourcePoint, ref Point io_DestinationPoint, bool i_IsCaptureOption);
+
+     public delegate void LogicValidationNotifierDelegate(Point i_SourcePoint, Point i_DestinationPoint, bool i_IsCaptureOption, bool i_IsLegalMove);
+
+     public class CheckersGame
      {
-          public event Action<Soldier> m_UpdateSoldierToKingNotifier;
+          public event Action<Soldier> UpdateSoldierToKingNotifier;
 
-          public event LogicErrorNotifierDelegate m_LogicErrorNotifier;
+          public event LogicOperationNotifierDelegate LogicOperationNotifier;
 
-          private const int k_computerTurn = 1;
+          public event LogicValidationNotifierDelegate LogicValidationNotifier;
+
+          public event LogicErrorNotifierDelegate LogicErrorNotifier;
+
+          private const int k_computerTurn = 1, k_ManValue = 1, k_KingValue = 4;
           private GameBoard m_Board;
 
-          public Game(int i_BoardSize)
+          public CheckersGame(int i_BoardSize)
           {
                m_Board = new GameBoard();
                m_Board.InitialBoard(i_BoardSize);
-          }
-
-          public void PrintMatrix()
-          {
-               m_Board.PrintMatrix();
           }
 
           public int BoardSize()
@@ -58,12 +61,12 @@ namespace CheckersGame
                }
           }
 
-          public bool PlayerValidation(GamePlayer i_CurrentPlayer, Point i_SourcePoint, Point i_DestinationPoint, out bool o_IsCaptureOption)
+          public void PlayerValidation(GamePlayer i_CurrentPlayer, Point i_SourcePoint, Point i_DestinationPoint)
           {
+               bool isCaptureOption = false;
                bool isLegalMove = true;
                Point directionPoint;
                Point differencePoint = new Point(i_DestinationPoint.X - i_SourcePoint.X, i_DestinationPoint.Y - i_SourcePoint.Y);
-               o_IsCaptureOption = false;
 
                isLegalMove = true;
                SetDirection(differencePoint, out directionPoint);
@@ -73,9 +76,9 @@ namespace CheckersGame
                     isLegalMove = false;
                }
 
-               o_IsCaptureOption = (checkCaptureOption(i_CurrentPlayer) == true) && (isLegalMove == true);
+               isCaptureOption = (checkCaptureOption(i_CurrentPlayer) == true) && (isLegalMove == true);
 
-               if (o_IsCaptureOption == true)
+               if (isCaptureOption == true)
                {
                     if (m_Board.CheckCapture(i_SourcePoint, directionPoint, i_CurrentPlayer.PlayerKind) == false)
                     {
@@ -83,20 +86,23 @@ namespace CheckersGame
                     }
                }
 
-               if (o_IsCaptureOption == false && Math.Abs(differencePoint.X) == 2 && Math.Abs(differencePoint.Y) == 2)
+               if (isCaptureOption == false && Math.Abs(differencePoint.X) == 2 && Math.Abs(differencePoint.Y) == 2)
                {
                     isLegalMove = false;
                }
 
                if (isLegalMove == false)
                {
-                    if(m_LogicErrorNotifier != null)
+                    if (LogicErrorNotifier != null)
                     {
-                         m_LogicErrorNotifier.Invoke();
+                         LogicErrorNotifier.Invoke();
                     }
                }
 
-               return isLegalMove;
+               if (LogicValidationNotifier != null)
+               {
+                    LogicValidationNotifier.Invoke(i_SourcePoint, i_DestinationPoint, isCaptureOption, isLegalMove);
+               }
           }
 
           private bool checkCaptureOption(GamePlayer i_CurrentPlayer)
@@ -141,33 +147,39 @@ namespace CheckersGame
                return ableToCapture;
           }
 
-          public void PlayerOperation(GamePlayer[] i_PlayersGame, Point i_SourcePoint, Point i_DestinationPoint, bool i_IsCapture, int i_PlayerTurn, out Soldier o_CurrentSoldier)
+          public void PlayerOperation(GamePlayer[] i_PlayersGame, Point i_SourcePoint, ref Point io_DestinationPoint, bool i_IsCapture, int i_PlayerTurn)
           {
+               Soldier currentSoldier;
                Point directionPoint;
-               Point differencePoint = new Point(i_DestinationPoint.X - i_SourcePoint.X, i_DestinationPoint.Y - i_SourcePoint.Y);
+               Point differencePoint = new Point(io_DestinationPoint.X - i_SourcePoint.X, io_DestinationPoint.Y - i_SourcePoint.Y);
                int enemyTurn = (i_PlayerTurn + 1) % i_PlayersGame.Length;
 
                SetDirection(differencePoint, out directionPoint);
-               o_CurrentSoldier = i_PlayersGame[i_PlayerTurn].FindCurrentSoldier(i_SourcePoint);
-               o_CurrentSoldier.X = i_DestinationPoint.X;
-               o_CurrentSoldier.Y = i_DestinationPoint.Y;
+               currentSoldier = i_PlayersGame[i_PlayerTurn].FindCurrentSoldier(i_SourcePoint);
+               currentSoldier.X = io_DestinationPoint.X;
+               currentSoldier.Y = io_DestinationPoint.Y;
 
                if (i_IsCapture == true)
                {
                     removeEnemySoldier(i_PlayersGame[enemyTurn], i_SourcePoint, directionPoint);
                }
 
-               if (checkKingUpdating(o_CurrentSoldier.Y) == true)
+               if (checkKingUpdating(currentSoldier.Y) == true && currentSoldier.SoldierKind == eSoldierKind.MAN)
                {
                     i_PlayersGame[i_PlayerTurn].AmountOfSoldiersValue += 3;
-                    o_CurrentSoldier.SoldierKind = eSoldierKind.KING;
-                    if(m_UpdateSoldierToKingNotifier != null)
+                    currentSoldier.SoldierKind = eSoldierKind.KING;
+                    if (UpdateSoldierToKingNotifier != null)
                     {
-                         m_UpdateSoldierToKingNotifier.Invoke(o_CurrentSoldier);
+                         UpdateSoldierToKingNotifier.Invoke(currentSoldier);
                     }
                }
 
-               m_Board.UpdateSoldierPosition(i_SourcePoint, i_DestinationPoint, directionPoint, i_PlayerTurn, i_IsCapture);
+               m_Board.UpdateSoldierPosition(i_SourcePoint, io_DestinationPoint, directionPoint, i_PlayerTurn, i_IsCapture);
+
+               if (LogicOperationNotifier != null)
+               {
+                    LogicOperationNotifier.Invoke(currentSoldier, i_SourcePoint, ref io_DestinationPoint, i_IsCapture);
+               }
           }
 
           private bool checkKingUpdating(int i_RowCordinate)
@@ -193,11 +205,11 @@ namespace CheckersGame
           {
                if (i_EnemyPlayer.PlayersSoldier[i_SoldierIndex].SoldierKind == eSoldierKind.MAN)
                {
-                    i_EnemyPlayer.AmountOfSoldiersValue -= 1;
+                    i_EnemyPlayer.AmountOfSoldiersValue -= k_ManValue;
                }
                else
                {
-                    i_EnemyPlayer.AmountOfSoldiersValue -= 4;
+                    i_EnemyPlayer.AmountOfSoldiersValue -= k_KingValue;
                }
           }
 
@@ -290,7 +302,13 @@ namespace CheckersGame
                return currentSoldierThatWillPlay;
           }
 
-          private int checkAmountSoldierCapture(int i_YCordinate, int i_XCordinate, ref Point io_Destination, ref int maximumCaptures, int sourceYDirection, int sourceXDirection)
+          private int checkAmountSoldierCapture(
+               int i_YCordinate,
+               int i_XCordinate, 
+               ref Point io_Destination,
+               ref int io_MaximumCaptures,
+               int i_SourceYDirection,
+               int i_SourceXDirection)
           {
                int amountOfSoldierCaptures = 0;
                Point directionPoint = new Point();
@@ -306,14 +324,14 @@ namespace CheckersGame
 
                          if (m_Board.CheckCapture(sourcerPoint, directionPoint, 1) == true)
                          {
-                              if (sourceYDirection != i && sourceXDirection != j)
+                              if (i_SourceYDirection != i && i_SourceXDirection != j)
                               {
                                    amountOfSoldierCaptures++;
-                                   amountOfSoldierCaptures += checkAmountSoldierCapture(sourcerPoint.Y + (2 * i), sourcerPoint.X + (2 * j), ref io_Destination, ref maximumCaptures, -i, -j);
+                                   amountOfSoldierCaptures += checkAmountSoldierCapture(sourcerPoint.Y + (2 * i), sourcerPoint.X + (2 * j), ref io_Destination, ref io_MaximumCaptures, -i, -j);
 
-                                   if (amountOfSoldierCaptures > maximumCaptures)
+                                   if (amountOfSoldierCaptures > io_MaximumCaptures)
                                    {
-                                        maximumCaptures = amountOfSoldierCaptures;
+                                        io_MaximumCaptures = amountOfSoldierCaptures;
                                         io_Destination.Y = sourcerPoint.Y + (2 * i);
                                         io_Destination.X = sourcerPoint.X + (2 * j);
                                    }
@@ -325,14 +343,19 @@ namespace CheckersGame
                return amountOfSoldierCaptures;
           }
 
-          public void ComputerOperation(GamePlayer i_ComputerPlayer, out bool o_IsCaptureOption, Soldier i_PlayerSolderStillAbleToCapture, ref Soldier io_CaptureSoldier, ref Point io_DestinationPoint)
+          public void ComputerOperation(
+               GamePlayer i_ComputerPlayer,
+               Soldier i_PlayerSolderStillAbleToCapture,
+               ref Soldier io_CaptureSoldier,
+               ref Point io_DestinationPoint,
+               Point i_SourcePoint)
           {
+               bool isCaptureOption = false;
                List<Soldier> ableToCapture;
-               o_IsCaptureOption = false;
 
                if (i_PlayerSolderStillAbleToCapture != null)
                {
-                    o_IsCaptureOption = true;
+                    isCaptureOption = true;
                }
                else
                {
@@ -340,7 +363,7 @@ namespace CheckersGame
 
                     if (ableToCapture.Count > 0)
                     {
-                         o_IsCaptureOption = true;
+                         isCaptureOption = true;
                          io_CaptureSoldier = findMostCaptureSoldier(ableToCapture, ref io_DestinationPoint);
                     }
                     else
@@ -351,6 +374,11 @@ namespace CheckersGame
                               io_CaptureSoldier = findSoldierAbleToMove(i_ComputerPlayer, ref io_DestinationPoint);
                          }
                     }
+               }
+
+               if (LogicOperationNotifier != null)
+               {
+                    LogicOperationNotifier.Invoke(io_CaptureSoldier, i_SourcePoint, ref io_DestinationPoint, isCaptureOption);
                }
           }
 
